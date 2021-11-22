@@ -29,10 +29,26 @@
     flex-direction: row; 
 }
 
-.row-top{
+.row-center{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.row-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.row-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-mid-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .container{
