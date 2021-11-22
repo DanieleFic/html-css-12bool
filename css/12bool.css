@@ -8,6 +8,28 @@
     flex-wrap: wrap;
 }
 
+.row-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.row-top{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
