@@ -26,8 +26,13 @@
 
 .row-top{
     display: flex;
+    flex-direction: row; 
+}
+
+.row-top{
+    display: flex;
     flex-direction: row;
-    
+    align-items: center;
 }
 
 .container{
